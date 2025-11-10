@@ -1,55 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+name: Hieu Dao Trung
+title: Hieu Dao Trung
+subtitle: C++ is too easy so I learn Danish
+description: "🎓 BEng., MSc. Mechatronic Engineering<br>💼 Control System Engineer<br>📍 Aarhus, Denmark<br>🛫 Ho Chi Minh city, Vietnam"
+avatar: "assets/images/relax-face-portrait.png" # optional
+email: hdt.foss@gmail.com
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+social:
+  - icon: "github"
+    url: "https://github.com/hiedt"
+  - icon: "linkedin"
+    url: "https://linkedin.com/in/hiedt"
+  - icon: "mastodon"
+    url: "https://mastodon.social/@hiedt"
+  - icon: "medium"
+    url: "https://hieudaotrung.medium.com/"
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+projects:
+  - title: "A Primer on Modern Control Algorithms"
+    subtitle: "with Julia code samples"
+    description: "My handwritten notes after 30 ECTS of graduate-level control courses, by student, for students."
+    url: "https://apomca.readthedocs.io"
+    thumbnail: "assets/images/APOMCA version 1.png"
+    tags: ["control", "algorithm", "julia"]
+  - title: "Data Structures and Algorithm Analysis in Zig"
+    subtitle: ""
+    description: "Based on the original series of Mark Allen Weiss, this book flashbacks my deep dive into the realm of low-level system programming."
+    url: "https://project2.com"
+    thumbnail: "https://via.placeholder.com/150"
+    tags: ["tag1", "tag2", "tag3"]
+  - title: "The Law That Governs All Physics"
+    subtitle: "An introduction to Calculus of Variations"
+    description: "Why does light travel on a straight line? Is energy actually conserved? And how are these two questions related?"
+    url: "https://project1.com"
+    thumbnail: "https://via.placeholder.com/150"
+    tags: ["physics", "calculus", "math", "variational"]
